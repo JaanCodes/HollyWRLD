@@ -10,6 +10,7 @@ const Registration = ({ userEmail, setUserEmail, userPassword, setUserPassword, 
       <div className="registration__background">
         <div className="registration__black-filter"></div>
         <img
+          loading="lazy"
           className="registration__bgImg"
           src="https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/61c7b3df-81d9-4336-a083-eb92ba77d089/ES-es-20220919-popsignuptwoweeks-perspective_alpha_website_small.jpg"
           srcSet="https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/61c7b3df-81d9-4336-a083-eb92ba77d089/ES-es-20220919-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/61c7b3df-81d9-4336-a083-eb92ba77d089/ES-es-20220919-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/61c7b3df-81d9-4336-a083-eb92ba77d089/ES-es-20220919-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w"

@@ -57,7 +57,7 @@ const Navbar = ({ logout, userInfo }) => {
             />
           </svg>
         </Link>
-        <Link to={"/"}>
+        <Link>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="current"

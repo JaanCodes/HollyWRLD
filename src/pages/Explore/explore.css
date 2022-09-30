@@ -51,3 +51,14 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 481px) {
+  .explore__movies {
+    justify-content: center;
+  }
+  .explore__search--input {
+    text-align: center;
+    width: 80vw;
+    padding: 0;
+  }
+}

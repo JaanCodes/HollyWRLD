@@ -7,7 +7,7 @@ import "./explore.css";
 const Explore = () => {
   const [searchTermMovies, setSearchTermMovies] = useState();
   const [searchTerm, setSearchTerm] = useState("");
-  const API_KEY = "aff7b8bffca222296abee22baf2d1b5";
+  const API_KEY = "1aff7b8bffca222296abee22baf2d1b5";
   let navigate = useNavigate();
 
   async function fetchSearchTermData() {
@@ -44,7 +44,7 @@ const Explore = () => {
             );
           })
         ) : (
-          <img className="explore__img" src={exploreMovies} alt="" />
+          <img className="explore__img" loading="lazy" src={exploreMovies} alt="" />
         )}
       </div>
     </div>

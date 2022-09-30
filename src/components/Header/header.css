@@ -76,4 +76,14 @@ header {
   .header__content {
     text-align: center;
   }
+  .header__title {
+    font-size: 3rem;
+  }
+  .header__button {
+    padding: 0.3rem 1.5rem;
+    font-size: 0.7em;
+  }
+  .header__description {
+    font-size: 0.8em;
+  }
 }

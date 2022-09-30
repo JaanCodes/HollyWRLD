@@ -16,6 +16,7 @@ const MovieDetails = () => {
     <img
       className="details__poster"
       src={`https://image.tmdb.org/t/p/original/${details?.poster__path || details?.backdrop__path}`}
+      loading="lazy"
     />
   );
 
