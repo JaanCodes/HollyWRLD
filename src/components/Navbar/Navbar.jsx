@@ -18,7 +18,7 @@ const Navbar = ({ logout, userInfo }) => {
   return (
     <nav>
       <Link to={"/"}>
-        <img src={Logo} className="nav__logo--img" />
+        <img src={Logo} className="nav__logo--img" loading="lazy" />
       </Link>
       <div className="nav__pages--icons">
         <Link to={"/"}>

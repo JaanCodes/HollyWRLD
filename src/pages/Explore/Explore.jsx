@@ -7,7 +7,7 @@ import "./explore.css";
 const Explore = () => {
   const [searchTermMovies, setSearchTermMovies] = useState();
   const [searchTerm, setSearchTerm] = useState("");
-  const API_KEY = "1aff7b8bffca222296abee22baf2d1b5";
+  const API_KEY = import.meta.env.VITE_APP_TMDB_API_KEY;
   let navigate = useNavigate();
 
   async function fetchSearchTermData() {

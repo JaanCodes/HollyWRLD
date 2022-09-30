@@ -5,7 +5,7 @@ import "./details.css";
 
 const MovieDetails = () => {
   const { movieId, movieType } = useParams();
-  const API_KEY = "1aff7b8bffca222296abee22baf2d1b5";
+  const API_KEY = import.meta.env.VITE_APP_TMDB_API_KEY;
   const [details, setDetails] = useState();
   const videoSource = details?.videos?.results[0]?.key ? (
     <iframe

@@ -1,4 +1,4 @@
-const API_KEY = "1aff7b8bffca222296abee22baf2d1b5"
+const API_KEY = import.meta.env.VITE_APP_TMDB_API_KEY;
 
 const requests = {
   fetchMostPopular: `/tv/popular?api_key=${API_KEY}&language=en-US`,
